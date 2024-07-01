@@ -6,3 +6,11 @@
 2024-07-01 22:42:18,785 - PyBaMM setup - INFO - Not running on windows
 2024-07-01 22:42:18,811 - PyBaMM setup - INFO - Could not find CMake. Skipping compilation of KLU module.
 2024-07-01 22:42:18,811 - PyBaMM setup - INFO - Could not find PyBind11 directory (/home/xinlei/Anna_deg_paper/PyBaMM-deg-model-pub/pybind11). Skipping compilation of KLU module.
+2024-07-01 23:45:06,150 - PyBaMM setup - INFO - Starting PyBaMM setup
+2024-07-01 23:45:06,158 - PyBaMM setup - INFO - Not running on windows
+2024-07-01 23:45:06,185 - PyBaMM setup - INFO - Could not find CMake. Skipping compilation of KLU module.
+2024-07-01 23:45:06,185 - PyBaMM setup - INFO - Could not find PyBind11 directory (/home/xinlei/Anna_deg_paper/PyBaMM-deg-model-pub/pybind11). Skipping compilation of KLU module.
+2024-07-01 23:45:06,748 - PyBaMM setup - INFO - Starting PyBaMM setup
+2024-07-01 23:45:06,756 - PyBaMM setup - INFO - Not running on windows
+2024-07-01 23:45:06,786 - PyBaMM setup - INFO - Could not find CMake. Skipping compilation of KLU module.
+2024-07-01 23:45:06,786 - PyBaMM setup - INFO - Could not find PyBind11 directory (/home/xinlei/Anna_deg_paper/PyBaMM-deg-model-pub/pybind11). Skipping compilation of KLU module.
