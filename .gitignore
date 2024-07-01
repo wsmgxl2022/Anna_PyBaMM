@@ -1,0 +1,129 @@
+# Custom
+rough.ipynb
+gmproj/extra/
+
+*.txt
+*.pdf
+*.tmp
+*.png
+*.jpg
+/local/
+*.DS_Store
+*.mat
+*.csv
+
+# don't ignore important .txt and .csv files
+!requirements*
+!LICENSE.txt
+!CMakeLists.txt
+!pybamm/CITATIONS.txt
+!pybamm/input/**/*.csv
+!benchmarks/benchmark_images/*.png
+
+# running files
+*.pyc
+*.py~
+.~lock*
+*.swp
+
+# Python cache
+*__pycache__/
+*.cache
+.ipynb_checkpoints/
+
+# Sphinx build files
+docs/_build/
+docs/build/
+build/
+
+# inputs except parameters and comsol data needed for scripts and notebooks
+input/*
+!input/parameters
+!input/comsol_results/
+!input/drive_cycles
+
+# keep images required by notebooks
+!examples/notebooks/Creating%20Models/SEI.png
+
+# simulation outputs
+out/
+config.py
+matplotlibrc
+*.pickle
+*.sav
+
+# ideas
+ideas/
+.idea/
+
+# setup.py files
+*.egg-info
+dist/
+
+# coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# black setup file seems to make Travis CI fail
+pyproject.toml
+
+# virtual enviroment
+env/
+venv/
+venv3.5/
+PyBaMM-env/
+bin/
+etc/
+lib/
+lib64
+share/
+pyvenv.cfg
+.vscode
+
+# sundials
+sundials
+sundials4
+sundials-*
+SuiteSparse-*
+build_sundials
+KLU_module_deps
+
+# downloads
+*.gz
+
+# third party
+third-party
+
+# cmakefiles
+CMakeFiles
+Makefile
+cmake_install.cmake
+*.so
+
+third-party/pybind11
+pybind11/
+
+# Build dependencies/
+KLU_module_deps
+
+# setup
+setup.log
+
+# test
+test.c
+test.json
+GMJULY2022*
+
+# tox
+.tox/
+
+# julia
+Manifest.toml
+
+# vcpkg
+vcpkg_installed/
+
+# benchmarks
+html/
+results/
